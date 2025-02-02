@@ -36,8 +36,7 @@ const TableCretegories = (props) => {
             <td>{item.name}</td>
             <td>{item.status ? "Available" : "Unavailable"}</td>
           </tr>
-        )
-      })
+        )})
       }
       </tbody>
     </Table>
