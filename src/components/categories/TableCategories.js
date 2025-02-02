@@ -1,4 +1,5 @@
-﻿import {Table} from "react-bootstrap";
+﻿import axios from "axios";
+import {Table} from "react-bootstrap";
 import {useEffect, useState} from "react";
 import {fetchCategories} from "../../services/CategoryService";
 
